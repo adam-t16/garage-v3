@@ -341,7 +341,7 @@ function initBookingForm() {
         const car = data.get('car')?.toString().trim() || 'Not provided';
         const date = data.get('date')?.toString().trim() || 'Not provided';
         const problem = data.get('problem')?.toString().trim() || 'Not provided';
-        const whatsappNumber = '971528131249';
+        const whatsappNumber = '971507943539';
         const text = `Booking request from Al Asala Cars website\nName: ${name}\nPhone: ${phone}\nCar: ${car}\nPreferred date: ${date}\nIssue: ${problem}`;
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
 
